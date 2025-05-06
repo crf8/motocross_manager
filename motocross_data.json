@@ -1,0 +1,70 @@
+{
+    "piloti": [],
+    "eventi": [
+        {
+            "id": 1,
+            "nome_evento": "nvbnmbm",
+            "tipo": "campionato",
+            "data_evento": "2025-04-30",
+            "luogo": "Tribulina - MC Ponte Nossa",
+            "categorie": [
+                "Master",
+                "Superveteran"
+            ],
+            "quota_prima": null,
+            "ora_prove_libere": null,
+            "ora_qualifiche": null,
+            "ora_gare": null,
+            "staff_medico": {
+                "direttore_medico_gara": "bnmbnm",
+                "medici_gara": "2",
+                "rianimatore": "bnmbnm",
+                "traumatologo": "bnm",
+                "ambulanza": "presente"
+            },
+            "staff_tecnico": {
+                "direttore_gara": "bnmbn",
+                "vice_direttore": "bnmnbm",
+                "commissari": "6",
+                "sbandieratori": "4",
+                "giudice_partenza": "bnmbnm",
+                "cronometristi": "bmnbnmbn",
+                "addetti_percorso": "10"
+            },
+            "documenti": {
+                "autorizzazione_comunale": "richiesta",
+                "rc_gare": "attivazione",
+                "nulla_osta": "ottenuto",
+                "servizio_cronometraggio": "altro"
+            }
+        }
+    ],
+    "iscrizioni": [],
+    "gruppi": [],
+    "tempi": [
+        {
+            "id": 1,
+            "evento_id": "1",
+            "sessione": "prove_libere",
+            "numero_gara": "7",
+            "tempo": "00:02.98",
+            "timestamp": "2025-05-05 15:00:35"
+        },
+        {
+            "id": 2,
+            "evento_id": "1",
+            "sessione": "prove_libere",
+            "numero_gara": "8",
+            "tempo": "00:07.24",
+            "timestamp": "2025-05-05 15:00:42"
+        },
+        {
+            "id": 3,
+            "evento_id": "1",
+            "sessione": "prove_libere",
+            "numero_gara": "9",
+            "tempo": "00:03.88",
+            "timestamp": "2025-05-05 15:00:46"
+        }
+    ]
+}
