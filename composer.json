@@ -1,0 +1,8 @@
+{
+    "name": "motocross/manager",
+    "description": "Motocross Manager Pro",
+    "type": "project",
+    "require": {
+        "php": ">=7.4"
+    }
+}
