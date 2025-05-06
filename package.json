@@ -1,0 +1,7 @@
+{
+    "name": "motocross-manager",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "echo 'Nessun build richiesto'"
+    }
+}
