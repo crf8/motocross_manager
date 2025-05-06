@@ -1,13 +1,6 @@
 services:
   - type: web
-    name: motocross-manager-pro
-    env: php
-    buildCommand: composer install --no-dev && npm install && npm run build
-    startCommand: caddy run --config /etc/caddy/Caddyfile
-    envVars:
-      - key: DATABASE_URL
-        value: "mysql://username:password@host:port/database"
-      - key: APP_ENV
-        value: production
-      - key: APP_DEBUG
-        value: false
+    name: motocross-manager
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
