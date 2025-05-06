@@ -1,6 +1,6 @@
 services:
   - type: web
     name: motocross-manager
-    env: docker
-    dockerfilePath: ./Dockerfile
-    plan: free
+    env: php
+    buildCommand: echo "Build completato!"
+    startCommand: php -S 0.0.0.0:$PORT
